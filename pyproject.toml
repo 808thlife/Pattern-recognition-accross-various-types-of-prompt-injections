@@ -7,7 +7,12 @@ authors = [
     { name = "808thlife", email = "khqyop@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "agentdojo>=0.1.35",
+    "datasets>=5.1.0",
+    "torch>=2.14.1",
+    "transformers[torch]>=5.20.2",
+]
 
 [project.scripts]
 pattern-recognition-model = "pattern_recognition_model:main"
