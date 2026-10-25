@@ -12,3 +12,5 @@ wheels/
 #Custom
 .DS_Store
 .env
+
+out/
